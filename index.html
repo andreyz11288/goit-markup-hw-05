@@ -4,39 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <header>
+<body class="body">
+    <header class="header">
         <nav>
-        <a class="logo" href="./index.html">Web Studio</a>        
-            <ul>
+        <a class="header-logo" href="./index.html">Web <span class="logo-studio">Studio</span></a>        
+            <ul class="nav-menu">
                 <li>
-                     <a href="./index.html">Студия</a> 
+                     <a class="studio" href="./index.html">Студия</a> 
                 </li>
                 <li> 
-                    <a href="./Portfolio.html">Портфолио</a>
+                    <a class="portfolio" href="./Portfolio.html">Портфолио</a>
                 </li>
                 <li>
-                     <a href="#address">Контакты</a> 
+                     <a class="contact" href="#address">Контакты</a> 
                 </li>
             </ul>
         </nav>
         <address>
             <ul>
                 <li> 
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="nav-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="nav-tel" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
     </header>
     <main>
-        <section>
-            <h1>эффективные решения <br/> для вашего бизнеса</h1>
-            <a href="">Заказать услугу</a>
-        </section>    
+            <section class="header-backgroup">
+                <div class="overlay">
+                    <h3 class="content-text">эффективные решения для вашего бизнеса</h3>                    
+                    <a class="content-button" href="">
+                        <span class="content-button-text">Заказать услугу</span></a>                               
+                </div>
+            </section>               
         <section>
         <h2 class="invisible">Features</h2>
             <ul>
@@ -193,7 +197,7 @@
         </section>
     </main>    
     <footer>
-        <a class="logo" href="./index.html">Web Studio</a>
+        <a class="footer-logo" href="./index.html">Web Studio</a>
         <address id="address">            
             <ul>
                 <li>г. Киев, пр-т Леси Украинки, 26</li>
