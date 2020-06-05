@@ -893,3 +893,140 @@ footer {
 .footer-logo > span {
   color: #ffffff;
 }
+#address {
+  position: absolute;
+  width: 232px;
+  height: 81px;
+  left: 215px;
+  top: 84px;
+}
+.street {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+#address > ul {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.mail-footer {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 0px;
+  top: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel-footer {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 0px;
+  top: 60px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.social {
+  position: absolute;
+  width: 206px;
+  height: 81px;
+  left: 514px;
+  top: 56px;
+}
+.social > h3 {
+  position: absolute;
+  width: 145px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.social > ul {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 206px;
+  height: 44px;
+  left: 0px;
+  top: 37px;
+}
+.input {
+  position: absolute;
+  width: 570px;
+  height: 87px;
+  left: 814px;
+  top: 56px;
+  width: 219px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.developed {
+  position: absolute;
+  width: 310px;
+  height: 21px;
+  left: 646px;
+  top: 211px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 200% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.4);
+}
