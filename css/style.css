@@ -15,6 +15,7 @@ li {
 }
 .invisible {
   text-indent: -9999px;
+  margin: 0px;
 }
 
 .header {
@@ -224,11 +225,13 @@ li {
 }
 
 .features {
-  position: relative;
+  position: absolute;
   width: 1170px;
   height: 251px;
   left: 215px;
-  top: 94px;
+  top: 774px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .link {
@@ -242,6 +245,7 @@ li {
 .antena {
   position: absolute;
   left: 0px;
+  top: 0px;
   width: 270px;
   height: 251px;
 }
@@ -275,6 +279,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin: 0px;
 }
 
 .detal-p {
@@ -290,6 +295,7 @@ li {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0px;
 }
 
 .clock {
@@ -327,6 +333,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin: 0px;
 }
 
 .punctuality-p {
@@ -342,6 +349,7 @@ li {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0px;
 }
 
 .diagram {
@@ -379,6 +387,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin: 0px;
 }
 
 .plan-p {
@@ -394,6 +403,7 @@ li {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0px;
 }
 
 .astro {
@@ -431,6 +441,7 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin: 0px;
 }
 
 .tehno-p {
@@ -446,14 +457,15 @@ li {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0px;
 }
 
 .worck {
-  position: relative;
+  position: absolute;
   width: 1170px;
   height: 386px;
   left: 283px;
-  top: 144px;
+  top: 1169px;
 }
 
 .worck > h2 {
@@ -461,7 +473,7 @@ li {
   width: 377px;
   height: 42px;
   left: 397px;
-  top: 144px;
+  top: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -470,6 +482,10 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin: 0px;
+}
+.worck > ul {
+  margin: 0px;
 }
 
 .worck1 {
@@ -477,7 +493,7 @@ li {
   width: 370px;
   height: 294px;
   left: 0px;
-  top: 236px;
+  top: 92px;
 }
 
 .worck1 > span {
@@ -503,7 +519,7 @@ li {
   width: 370px;
   height: 294px;
   left: 400px;
-  top: 236px;
+  top: 92px;
 }
 
 .worck2 > span {
@@ -529,7 +545,7 @@ li {
   width: 370px;
   height: 294px;
   left: 800px;
-  top: 236px;
+  top: 92px;
 }
 
 .worck3 > span {
@@ -561,18 +577,19 @@ li {
   border-radius: 0px 0px 4px 4px;
 }
 .comand {
-  position: relative;
+  position: absolute;
   width: 1600px;
   height: 702px;
   left: 0px;
-  top: 524px;
+  top: 1693px;
+  background: #f5f4fa;
 }
 .comand > h2 {
   position: absolute;
   width: 265px;
   height: 42px;
   left: 668px;
-  top: 0px;
+  top: 94px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -581,13 +598,15 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin: 0px;
 }
 .comand > ul {
   position: absolute;
   width: 1170px;
   height: 422px;
   left: 215px;
-  top: 50px;
+  top: 144px;
+  margin: 0px;
 }
 .john {
   position: absolute;
@@ -611,6 +630,7 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin: 0px;
 }
 .john > p {
   margin: 0px;
@@ -773,4 +793,81 @@ li {
   height: 44px;
   left: 32px;
   top: 354px;
+}
+.client {
+  position: absolute;
+  width: 1170px;
+  height: 182px;
+  left: 215px;
+  top: 2489px;
+}
+.client > h2 {
+  position: absolute;
+  width: 391px;
+  height: 42px;
+  left: 391px;
+  top: 0px;
+  margin: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.client > ul {
+  margin: 0px;
+}
+.client1 {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  left: 0px;
+  top: 92px;
+}
+.client2 {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  left: 200px;
+  top: 92px;
+}
+.client3 {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  left: 400px;
+  top: 92px;
+}
+.client4 {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  left: 600px;
+  top: 92px;
+}
+.client5 {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  left: 800px;
+  top: 92px;
+}
+.client6 {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  left: 1000px;
+  top: 92px;
+}
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 253px;
+  left: 1px;
+  top: 2765px;
 }
