@@ -870,4 +870,26 @@ footer {
   height: 253px;
   left: 1px;
   top: 2765px;
+  background-color: #2f303a;
+}
+.footer-logo {
+  position: absolute;
+  width: 130px;
+  height: 26px;
+  left: 215px;
+  top: 48px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.footer-logo > span {
+  color: #ffffff;
 }
