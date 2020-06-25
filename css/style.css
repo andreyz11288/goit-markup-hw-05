@@ -95,9 +95,7 @@ a {
   letter-spacing: 0.02em;
   color: #212121;
 }
-/* .heder-address {
-  margin-left: auto;
-} */
+
 .section-nav-contact {
   display: flex;
   font-family: Roboto;
@@ -614,15 +612,7 @@ main {
 .footer-button > svg {
   margin-left: 10px;
 }
-/* .footer-button::after {
-  content: "";
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
-  background-position: right;
-  background-image: url(../images/icon-send.svg);
-  background-size: contain;
-} */
+
 /*  */
 /*  */
 /*  */
@@ -729,15 +719,11 @@ main {
   text-align: start;
   color: var(--third);
   width: 322px;
-  /* height: 168px; */
   background-color: rgba(33, 150, 243, 0.9);
 }
 .main-content a > p {
   color: var(--second-color);
 }
-/* .main-content > li {
-  width: 370px;
-} */
 
 #address a {
   color: var(--second-color);
@@ -775,8 +761,6 @@ main {
   width: 44px;
   height: 44px;
   fill: #afb1b8;
-
-  /* color: var(--second-color); */
 }
 .social a:hover,
 .social a:focus {
@@ -817,15 +801,3 @@ main {
 .social-footer a:focus {
   background-color: var(--link);
 }
-/* .inst2 {
-  background-image: url(../images/social/instagramfooter.svg);
-}
-.twit1 {
-  background-image: url(../images/social/twitterfooter.svg);
-}
-.face1 {
-  background-image: url(../images/social/facebookfooter.svg);
-}
-.link1 {
-  background-image: url(../images/social/linkedinfooter.svg);
-} */
