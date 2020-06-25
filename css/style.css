@@ -310,6 +310,7 @@ main {
 .work-design {
   display: block;
   position: relative;
+  height: 294px;
 }
 .section-work h2 {
   text-align: center;
@@ -338,11 +339,12 @@ main {
   padding-bottom: 27px;
   position: absolute;
   bottom: 0px;
+  width: 100%;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 16px;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
