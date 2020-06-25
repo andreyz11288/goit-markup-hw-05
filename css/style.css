@@ -352,22 +352,6 @@ main {
   background: rgba(47, 48, 58, 0.8);
 }
 
-/* .desing:hover,
-.design:focus {
-  background-color: var(--link);
-  color: var(--black-color);
-}
-.mobile:hover,
-.mobile:focus {
-  background-color: var(--link);
-  color: var(--black-color);
-}
-
-.desktop:hover,
-.desktop:focus {
-  background-color: var(--link);
-  color: var(--black-color);
-} */
 /*  */
 /*  */
 /*  */
@@ -448,40 +432,21 @@ main {
   display: flex;
 }
 .clients a {
-  display: block;
-  width: 170px;
-  height: 90px;
-}
-.clients > li:not(:last-child) {
-  margin-right: 30px;
-}
-.svg-client1 {
-  padding: 20px 63px;
-}
-.svg-client2 {
-  padding: 19px 64px;
-}
-.svg-client3 {
-  padding: 23px 64px;
-}
-.svg-client4 {
-  padding: 23px 45px;
-}
-.svg-client5 {
-  padding: 22px 56px;
-}
-.svg-client6 {
-  padding: 22px 40px;
-}
-.clients svg {
-  fill: #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  fill: #afb1b8;
 }
-.clients svg:hover {
+.clients > li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients a:hover {
   border: 1px solid var(--link);
   box-sizing: border-box;
   border-radius: 4px;
