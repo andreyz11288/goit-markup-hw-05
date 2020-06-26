@@ -59,6 +59,9 @@ a {
   display: flex;
   border-bottom: 1px solid #ececec;
 }
+.heder-address {
+  margin-left: auto;
+}
 .header-logo {
   min-width: 153px;
   padding-top: 24px;
@@ -82,7 +85,7 @@ a {
 }
 .n-menu {
   display: flex;
-  margin-right: 305px;
+  /* margin-right: 305px; */
 }
 .nav-menu {
   display: flex;
@@ -98,6 +101,7 @@ a {
 
 .section-nav-contact {
   display: flex;
+  align-items: baseline;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -183,6 +187,7 @@ main {
       rgba(47, 48, 58, 0.8)
     ),
     url(../images/header-img.jpg);
+  background-color: var(--second-color);
 }
 
 .content-button-text {
