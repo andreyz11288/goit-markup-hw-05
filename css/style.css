@@ -717,7 +717,7 @@ main {
   position: absolute;
   top: 0px;
   opacity: 0;
-
+  transition: 250ms;
   background-color: rgba(33, 150, 243, 0.9);
 }
 .blackout:hover .background-hov-text,
