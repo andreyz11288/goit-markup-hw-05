@@ -449,7 +449,8 @@ main {
   margin-right: 30px;
 }
 
-.clients a:hover {
+.clients a:hover,
+.clients a:focus {
   border: 1px solid var(--link);
   box-sizing: border-box;
   border-radius: 4px;
@@ -695,9 +696,7 @@ main {
   letter-spacing: 0.06em;
   color: #212121;
 }
-.blackout img {
-  margin-bottom: 20px;
-}
+
 .blackout > p {
   font-family: Roboto;
   font-style: normal;
@@ -708,23 +707,39 @@ main {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.blackout:hover,
-.blackout:focus {
-  background-color: var(--link);
+.images-box {
+  position: relative;
+  margin-bottom: 20px;
 }
+.background-hov-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  opacity: 0;
 
+  background-color: rgba(33, 150, 243, 0.9);
+}
+.blackout:hover .background-hov-text,
+.blackout:focus .background-hov-text {
+  opacity: 0.8;
+}
+/* .background-hov-text:hover {
+  opacity: inherit;
+} */
 .hov-text {
   display: inline-block;
+  padding: 63px 24px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
-  line-height: 1.55;
+  line-height: 28px;
+
+  /* or 156% */
   letter-spacing: 0.03em;
-  text-align: start;
-  color: var(--third);
-  width: 322px;
-  background-color: rgba(33, 150, 243, 0.9);
+
+  color: #ffffff;
 }
 .main-content a > p {
   color: var(--second-color);
