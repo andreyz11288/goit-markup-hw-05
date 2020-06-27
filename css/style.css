@@ -124,6 +124,7 @@ a {
 .nav-menu-first:hover,
 .nav-menu-first:focus {
   color: var(--link);
+  cursor: pointer;
 }
 
 .nav-email,
@@ -158,11 +159,13 @@ a {
 .nav-tel:focus {
   fill: var(--link);
   color: var(--link);
+  cursor: pointer;
 }
 .nav-email:hover,
 .nav-email:focus {
   fill: var(--link);
   color: var(--link);
+  cursor: pointer;
 }
 
 main {
@@ -212,6 +215,7 @@ main {
 .content-button-text:focus {
   color: var(--main-color);
   background-color: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 .content-button-link {
   display: flex;
@@ -292,6 +296,7 @@ main {
 .features-link:hover,
 .features-link:focus {
   background-color: var(--link);
+  cursor: pointer;
 }
 
 .features-link {
@@ -301,6 +306,7 @@ main {
 .features-link:hover,
 .features-link:focus {
   background-color: var(--link);
+  cursor: pointer;
 }
 
 /*  */
@@ -461,6 +467,7 @@ main {
   box-sizing: border-box;
   border-radius: 4px;
   fill: var(--link);
+  cursor: pointer;
 }
 
 .section-clients h2 {
@@ -669,6 +676,7 @@ main {
 .filter:focus {
   color: var(--white-color);
   background-color: var(--link);
+  cursor: pointer;
 }
 .main-content li {
   width: calc((100% - 30px * 2) / 3);
@@ -731,6 +739,7 @@ main {
 .blackout:focus .background-hov-text {
   opacity: 0.8;
   transform: translateY(-294px);
+  cursor: pointer;
 }
 
 .hov-text {
@@ -758,6 +767,7 @@ main {
 #address a:hover,
 #address a:focus {
   color: var(--link);
+  cursor: pointer;
 }
 .index {
   color: var(--white-color);
@@ -788,6 +798,7 @@ main {
   width: 44px;
   height: 44px;
   fill: #afb1b8;
+  border-radius: 50%;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social a:hover,
@@ -796,6 +807,7 @@ main {
   background-color: var(--link);
   fill: var(--white-color);
   border-radius: 50%;
+  cursor: pointer;
 }
 /*  */
 /*  */
@@ -829,4 +841,5 @@ main {
 .social-footer a:hover,
 .social-footer a:focus {
   background-color: var(--link);
+  cursor: pointer;
 }
